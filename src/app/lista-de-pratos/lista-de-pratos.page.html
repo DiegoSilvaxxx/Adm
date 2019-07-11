@@ -98,6 +98,7 @@
     <ion-row>
 
       <ion-col size="6" *ngFor="let prato of ListaDePratos">
+        
         <ion-card>
           <ion-card-header>
             <img src="{{prato?.imagem}}" (click)="viewPrato(prato)">
